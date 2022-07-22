@@ -25,8 +25,6 @@ public class OrderServiceTest {
 
     @Test
     void createOrder(){
-        MemberService memberService = new MemberServiceImpl();
-        OrderService orderService = new OrderServiceImpl();
 
         Long memberId = 1l;
         Member  member = new Member(memberId,"memberA", Grade.VIP );
