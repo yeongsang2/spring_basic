@@ -1,4 +1,4 @@
-package com.hello.core.dicount;
+package com.hello.core.discount;
 
 import com.hello.core.member.Grade;
 import com.hello.core.member.Member;

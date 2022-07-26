@@ -1,8 +1,7 @@
 package com.hello.core;
 
-import com.hello.core.dicount.DiscountPolicy;
-import com.hello.core.dicount.FixDiscountPolicy;
-import com.hello.core.dicount.RateDiscountPolicy;
+import com.hello.core.discount.DiscountPolicy;
+import com.hello.core.discount.RateDiscountPolicy;
 import com.hello.core.member.MemberRepository;
 import com.hello.core.member.MemberService;
 import com.hello.core.member.MemberServiceImpl;
