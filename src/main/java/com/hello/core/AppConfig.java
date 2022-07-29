@@ -27,7 +27,8 @@ public class AppConfig { //applicatin 에 대한 환경 설정
 
     @Bean
     public OrderService orderService(){
-        return new OrderServiceImpl(memberRepository(), discountPolicy());
+//        return new OrderServiceImpl(memberRepository(), discountPolicy());
+        return null;
     }
 
     @Bean

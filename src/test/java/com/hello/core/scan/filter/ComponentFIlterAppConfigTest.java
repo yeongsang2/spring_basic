@@ -16,8 +16,7 @@ public class ComponentFIlterAppConfigTest {
         BeanA beanA = ac.getBean("beanA", BeanA.class);
         Assertions.assertThat(beanA).isNotNull();
 
-        BeanB beanB = ac.getBean("beanB", BeanB.class);
-        Assertions.assertThat(beanB).isNotNull();
+
     }
 
 
